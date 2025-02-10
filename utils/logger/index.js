@@ -1,5 +1,5 @@
 import util from 'util';
-import { info, error, devLog, warn } from './logging';
+import { info, error, devLog, warn } from './logger.js';
 
 const infoLogger = (component, apiMethod, data, message = '') => {
     try {
